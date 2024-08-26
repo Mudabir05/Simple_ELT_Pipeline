@@ -84,7 +84,6 @@ try :
         sys.exit(1)  # Exit the script if the table does not exist
 
 
-    # Assuming `conn` is your database connection and `cursor` is your cursor
     for record in energy_data:
         for item in record:  
             cursor.execute("""
